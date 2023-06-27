@@ -16,17 +16,6 @@ class Exercicio:
   num_repeticoes = 0
   peso_exercicio = 0
 
-# dados de teste
-novo_aluno = Aluno()
-novo_aluno.nome = "giordana"
-novo_aluno.cpf = "12795949181"
-novo_aluno.peso = 70
-novo_aluno.altura = 1.7
-novo_aluno.status = False
-alunos.append(novo_aluno)
-treino_vazio = []
-treinos.append(treino_vazio)
-
 # função de validação de cpf
 def validar_cpf(cpf):
     # remover pontos e traços do CPF
